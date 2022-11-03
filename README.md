@@ -13,10 +13,6 @@ Local K8s deployment with Kind using Kustomize
 <!DOCTYPE html>
 <html>
 <head>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <meta name="Author" content="Made by 'tree'">
- <meta name="GENERATOR" content="$Version: $ tree v2.0.2 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
-</head>
 <body>
 	<h1>Tree Diagram</h1><p>
 	├── <a href="/base/">base</a><br>
@@ -35,14 +31,5 @@ Local K8s deployment with Kind using Kustomize
 	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a href="/overlays/testing/namespace.yaml">namespace.yaml</a><br>
 	&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a href="/overlays/testing/testing.env">testing.env</a><br>
 <br><br><p>
-
-</p>
-	<hr>
-	<p class="VERSION">
-		 tree v2.0.2 © 1996 - 2022 by Steve Baker and Thomas Moore <br>
-		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
-		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
-		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
-	</p>
 </body>
 </html>
