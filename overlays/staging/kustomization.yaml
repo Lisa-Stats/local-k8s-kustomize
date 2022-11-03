@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+- ../../base
+- namespace.yaml
+
+namePrefix: staging-
+namespace: staging
+
+images:
+  - name: express
+    newName: nginx
+    newTag: 1.22.1
+
+configMapGenerator:
+  - name: config
+    behavior: replace
+    envs:
+      - staging.env

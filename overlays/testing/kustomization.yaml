@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+- ../../base
+- namespace.yaml
+
+namePrefix: testing-
+namespace: testing
+
+configMapGenerator:
+  - name: config
+    behavior: replace
+    envs:
+      - testing.env
